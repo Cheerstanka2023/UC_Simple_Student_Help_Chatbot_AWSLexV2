@@ -13,7 +13,36 @@ It is designed to assist students with common queries related to university serv
 - Easily configurable utterances and intents
 - Scalable and deployable on any platform
 
+## 📥 Download Project
+You can download the full project as a ZIP file here:  
+[➡️ Download Student_Help_Chatbot_AWSLex_V2.zip](https://github.com/Cheerstanka2023/UC_Simple_Student_Help_Chatbot_AWSLexV2/raw/main/Student_Help_Chatbot_AWSLex_V2.zip)
+
 ---
+
+## ⚙️ Installation & Setup
+1. **Clone this repository**:
+   ```bash
+   git clone https://github.com/Cheerstanka2023/UC_Simple_Student_Help_Chatbot_AWSLexV2.git
+
+---
+2. /Open the project folder:
+cd UC_Simple_Student_Help_Chatbot_AWSLexV2
+
+3. Configure AWS Credentials:
+
+  Create an IAM user in AWS with permissions for Lex and Lambda
+
+  Save your AWS Access Key and Secret Key
+
+4. Deploy Lambda Function:
+
+  Upload lambda/index.js in your AWS Lambda function
+
+  Link Lambda to your Lex V2 bot
+
+5. Run locally:
+
+  Open index.html in your browser
 
 ## 🛠️ Tech Stack
 - **AWS Lex V2** – Chatbot NLP engine
@@ -34,37 +63,8 @@ It is designed to assist students with common queries related to university serv
 ├── screenshots/ # Project screenshots
 └── README.md # Project documentation
 
-
 ---
-
-## ⚙️ Installation & Setup
-1. **Clone this repository**:
-   ```bash
-   git clone https://github.com/YOUR_USERNAME/UC_Simple_Student_Help_Chatbot_AWSLexV2.git
-
-2. /Open the project folder:
-cd UC_Simple_Student_Help_Chatbot_AWSLexV2
-
-3. Configure AWS Credentials:
-
-  Create an IAM user in AWS with permissions for Lex and Lambda
-
-  Save your AWS Access Key and Secret Key
-
-4. Deploy Lambda Function:
-
-  Upload lambda/index.js in your AWS Lambda function
-
-  Link Lambda to your Lex V2 bot
-
-5. Run locally:
-
-  Open index.html in your browser
-
 📷 Screenshots
-
-(Add screenshots of your chatbot UI here for your professor to see.)
-## 📷 Screenshots
 
 ### Chatbot UI
 ![Chatbot UI](screenshots/chatbot_ui.png)
