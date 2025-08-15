@@ -26,23 +26,23 @@ You can download the full project as a ZIP file here:
 
 ---
 2. /Open the project folder:
-cd UC_Simple_Student_Help_Chatbot_AWSLexV2
+   cd UC_Simple_Student_Help_Chatbot_AWSLexV2
 
 3. Configure AWS Credentials:
 
-  Create an IAM user in AWS with permissions for Lex and Lambda
+   Create an IAM user in AWS with permissions for Lex and Lambda
 
-  Save your AWS Access Key and Secret Key
+   Save your AWS Access Key and Secret Key
 
 4. Deploy Lambda Function:
 
-  Upload lambda/index.js in your AWS Lambda function
+   Upload lambda/index.js in your AWS Lambda function
 
-  Link Lambda to your Lex V2 bot
+   Link Lambda to your Lex V2 bot
 
 5. Run locally:
 
-  Open index.html in your browser
+   Open index.html in your browser
 
 ## 🛠️ Tech Stack
 - **AWS Lex V2** – Chatbot NLP engine
