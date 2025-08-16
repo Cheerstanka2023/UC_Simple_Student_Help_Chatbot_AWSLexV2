@@ -37,6 +37,12 @@ However, in a **real production environment**, credentials must never be exposed
 You can download the full project as a ZIP file here:  
 [➡️ Download Student_Help_Chat (https://github.com/Cheerstanka2023/UC_Simple_Student_Help_Chatbot_AWSLexV2/archive/refs/heads/main.zip))
 
+### Intents & Utterances (Standalone JSON)
+
+For testing purposes, you can download the complete list of intents, utterances, and closing responses from this JSON file:
+
+📥 [Download UC_Lex_All_Chatbot_Intents.json](https://raw.githubusercontent.com/Cheerstanka2023/UC_Simple_Student_Help_Chatbot_AWSLexV2/refs/heads/main/UC_Lex_All_Chatbot_Intents.json))
+
 ---
 
 ## ⚙️ Installation & Setup
