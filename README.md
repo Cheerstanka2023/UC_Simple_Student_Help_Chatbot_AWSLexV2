@@ -6,6 +6,26 @@ It is designed to assist students with common queries related to university serv
 
 ---
 
+## 🔒 Security Considerations
+
+For this academic project, AWS credentials are shown as placeholders in the JavaScript file.  
+Due to time limitations and the complexity of securely managing authentication, I was not able to implement full security best practices.  
+
+However, in a **real production environment**, credentials must never be exposed in client-side code. Instead:
+
+1. **Use AWS Cognito Identity Pools or IAM Roles with restricted permissions**  
+   - Provides temporary, limited-scope credentials for interacting with AWS services (such as Lex).  
+
+2. **Move sensitive credentials to server-side code (Lambda or a backend API)**  
+   - The frontend should never directly contain AWS keys.  
+   - A secure backend service handles requests and communicates with AWS resources.  
+
+3. **Never hardcode credentials in public repositories**  
+   - Hardcoding exposes your AWS account to misuse and possible cost/security risks.  
+
+➡️ In this project, keys are replaced with placeholders and comments to demonstrate integration only. No real credentials are published.
+
+
 ## 🚀 Features
 - Natural language understanding powered by AWS Lex V2
 - AWS Lambda integration for dynamic responses
