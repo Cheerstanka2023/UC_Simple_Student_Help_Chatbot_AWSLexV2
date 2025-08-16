@@ -1,0 +1,118 @@
+/* ====== GENERAL PAGE STYLING ====== */
+body {
+  background: #f4f4f9; /* Light grey background for the whole page */
+  font-family: Arial, sans-serif; /* Simple, easy-to-read font */
+}
+
+/* ====== MAIN CHATBOT CONTAINER ====== */
+.chat-container {
+  width: 400px; /* Fixed width for chatbot box */
+  margin: 50px auto; /* Centered horizontally with top spacing */
+  border: 1px solid #ccc; /* Light border around chatbot */
+  border-radius: 10px; /* Rounded corners */
+  overflow: hidden; /* Prevents content from spilling outside */
+  display: flex; /* Enables flexbox layout */
+  flex-direction: column; /* Arranges children vertically */
+}
+
+/* ====== CHAT HEADER (TITLE BAR) ====== */
+.chat-header {
+  background: #0073bb; /* Blue background */
+  color: white; /* White text */
+  padding: 10px;
+  text-align: center; /* Centered text */
+  font-size: 18px; /* Slightly larger text size */
+}
+
+/* ====== QUICK ACTION BUTTONS ROW ====== */
+.top-buttons {
+  display: flex; /* Place buttons in a row */
+  justify-content: space-around; /* Even spacing between buttons */
+  padding: 10px;
+  background: #f0f0f0; /* Light grey background */
+  border-bottom: 1px solid #ccc; /* Separator line */
+}
+
+/* Styling for each quick action button */
+.top-buttons button {
+  background: #0073bb; /* Blue button color */
+  color: white; /* White text */
+  border: none; /* Remove default border */
+  padding: 8px 15px; /* Padding inside button */
+  border-radius: 8px; /* Rounded corners */
+  cursor: pointer; /* Pointer cursor on hover */
+  font-size: 14px;
+}
+
+/* Hover effect for quick buttons */
+.top-buttons button:hover {
+  background: #005f99; /* Darker blue when hovered */
+}
+
+/* ====== INSTRUCTION MESSAGE ====== */
+.instruction {
+  text-align: center; /* Centered text */
+  font-size: 14px; /* Smaller text size */
+  padding: 8px;
+  color: #444; /* Dark grey text */
+  border-bottom: 1px solid #ccc; /* Separator line */
+}
+
+/* ====== CHAT BOX (MESSAGES AREA) ====== */
+.chat-box {
+  background: white; /* White background for messages */
+  height: 400px; /* Fixed height */
+  overflow-y: auto; /* Scrollbar for long conversations */
+  padding: 10px;
+  display: flex;
+  flex-direction: column; /* Stack messages vertically */
+}
+
+/* ====== USER MESSAGE STYLE ====== */
+.user-message {
+  align-self: flex-end; /* Align to the right */
+  background: #0073bb; /* Blue background */
+  color: white; /* White text */
+  padding: 8px 12px;
+  border-radius: 15px; /* Rounded message bubble */
+  margin: 5px 0; /* Vertical space between messages */
+  max-width: 80%; /* Limit bubble width */
+}
+
+/* ====== BOT MESSAGE STYLE ====== */
+.bot-message {
+  align-self: flex-start; /* Align to the left */
+  background: #e5e5e5; /* Light grey background */
+  color: black; /* Black text */
+  padding: 8px 12px;
+  border-radius: 15px; /* Rounded message bubble */
+  margin: 5px 0;
+  max-width: 80%;
+}
+
+/* ====== INPUT AREA (TEXT BOX + BUTTONS) ====== */
+.chat-input {
+  display: flex; /* Place input and buttons in a row */
+  padding: 10px;
+  border-top: 1px solid #ccc; /* Separator line above input */
+  background: #fafafa; /* Light background */
+}
+
+/* Text input box styling */
+.chat-input input {
+  flex: 1; /* Take up all available space */
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px; /* Slightly rounded corners */
+}
+
+/* Send & Clear button styling */
+.chat-input button {
+  margin-left: 5px; /* Space between input and button */
+  padding: 10px 15px;
+  border: none;
+  background: #0073bb; /* Blue button */
+  color: white;
+  border-radius: 5px;
+  cursor: pointer; /* Pointer cursor on hover */
+}
