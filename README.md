@@ -13,7 +13,7 @@ Due to time limitations and the complexity of securely managing authentication, 
 
 However, in a **real production environment**, credentials must never be exposed in client-side code. Instead:
 
-1. **Use AWS Cognito Identity Pools or IAM Roles with restricted permissions**  
+1. **Use IAM Roles with restricted permissions**  
    - Provides temporary, limited-scope credentials for interacting with AWS services (such as Lex).  
 
 2. **Move sensitive credentials to server-side code (Lambda or a backend API)**  
@@ -35,7 +35,7 @@ However, in a **real production environment**, credentials must never be exposed
 
 ## 📥 Download Project
 You can download the full project as a ZIP file here:  
-[➡️ Download Student_Help_Chatbot_AWSLex_V2.zip](https://github.com/Cheerstanka2023/UC_Simple_Student_Help_Chatbot_AWSLexV2/raw/main/Student_Help_Chatbot_AWSLex_V2.zip)
+[➡️ Download Student_Help_Chat (https://github.com/Cheerstanka2023/UC_Simple_Student_Help_Chatbot_AWSLexV2/archive/refs/heads/main.zip))
 
 ---
 
