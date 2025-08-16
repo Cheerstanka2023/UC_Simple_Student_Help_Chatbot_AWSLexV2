@@ -35,7 +35,7 @@ However, in a **real production environment**, credentials must never be exposed
 
 ## 📥 Download Project
 You can download the full project as a ZIP file here:  
-[➡️ Download Student_Help_Chatbot_AWSLex_V2.zip](https://github.com/Cheerstanka2023/UC_Simple_Student_Help_Chatbot_AWSLexV2/raw/main/Student_Help_Chatbot_AWSLex_V2.zip)
+[➡️ Download Student_Help_Chat (https://github.com/Cheerstanka2023/UC_Simple_Student_Help_Chatbot_AWSLexV2.git)
 
 ---
 
