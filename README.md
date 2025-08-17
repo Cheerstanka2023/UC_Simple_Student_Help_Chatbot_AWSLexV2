@@ -108,7 +108,7 @@ Name: Tanka Chapagain
 
 University: University of the Cumberlands
 
-Course: Capstone Project
+Course: 2025 Summer - Information Technology Capstone (ITSS-440-M01)
 
 
 📜 License
