@@ -90,17 +90,6 @@ For testing purposes, you can download the complete list of intents, utterances,
 └── README.md # Project documentation
 
 ---
-📷 Screenshots
-
-### Chatbot UI
-![Chatbot UI](screenshots/chatbot_ui.png)
-
-### AWS Lex V2 Bot Configuration
-![AWS Lex V2 Config](screenshots/lex_config.png)
-
-### AWS Lambda Fulfillment
-![AWS Lambda](screenshots/lambda_code.png)
-
 
 👨‍🎓 Author
 
